@@ -10,7 +10,7 @@ const CompanyLogos = ({ className }: CompanyLogosProps) => {
 			<h5 className="tagline mb-6 text-centertext-n-1/50">
 				Helping people create beautiful content at
 			</h5>
-			<ul role="list">
+			<ul className="flex" role="list">
 				{companyLogos.map((logo, index) => {
 					return (
 						<li
