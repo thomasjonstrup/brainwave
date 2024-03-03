@@ -12,6 +12,7 @@ import Generating from "@/components/Generating";
 import { ScrollParallax } from "react-just-parallax";
 import { heroIcons } from "@/constants";
 import CompanyLogos from "@/components/CompanyLogos";
+import Notification from "@/components/Notification";
 
 const Hero = () => {
 	return (
@@ -73,6 +74,13 @@ const Hero = () => {
 											</li>
 										))}
 									</ul>
+								</ScrollParallax>
+
+								<ScrollParallax isAbsolutelyPositioned>
+									<Notification
+										className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
+										title="Code generation"
+									/>
 								</ScrollParallax>
 							</div>
 						</div>

@@ -7,9 +7,9 @@ type CompanyLogosProps = {
 const CompanyLogos = ({ className }: CompanyLogosProps) => {
 	return (
 		<div className={className ?? ""}>
-			<h5 className="tagline mb-6 text-centertext-n-1/50">
+			<h2 className="tagline mb-6 text-center text-n-1/50">
 				Helping people create beautiful content at
-			</h5>
+			</h2>
 			<ul className="flex" role="list">
 				{companyLogos.map((logo, index) => {
 					return (
